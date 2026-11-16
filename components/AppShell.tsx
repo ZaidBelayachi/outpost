@@ -1,7 +1,8 @@
 "use client";
 
 import { usePathname } from "next/navigation";
-import SiteHeader from "./SiteHeader";
+import { SiteHeader } from "./SiteHeader";
+
 
 
 // Workspace and shared-link pages are full-screen with their own header, so they skip the site header.
